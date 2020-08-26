@@ -18,22 +18,18 @@ def simple_calculator():
         if operand == '+':
             answer = sum(number_1, number_2)
             print(f'{number_1} plus {number_2} is equal to {answer}')
-            return answer
 
         if operand == '-':
             answer = subtract(number_1, number_2)
             print(f'{number_1} minus {number_2} is equal to {answer}')
-            return answer
 
         if operand == '*':
             answer = multiply(number_1, number_2)
             print(f'{number_1} multiplied by {number_2} is equal to {answer}')
-            return answer
 
         if operand == '/':
             answer = divide(number_1, number_2)
             print(f'{number_1} divided by {number_2} is equal to {answer}')
-            return answer
         
         operand = input('What is the operation you would like to perform? + - * / or type done to terminate the program: ')
 
